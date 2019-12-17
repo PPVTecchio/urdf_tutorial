@@ -5,7 +5,7 @@ joint_state_controller:
 
 # Position Controllers ---------------------------------------
 diff_drive_controller:
-  type: "diff_drive_controller/DiffDriveController"
+  type: diff_drive_controller/DiffDriveController
 
   left_wheel: base_to_left_wheel
   right_wheel: base_to_right_wheel

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-  <!-- <include file="$(find urdf_tutorial)/launch/urdf_rviz.launch"/> -->
+  <include file="$(find urdf_tutorial)/launch/urdf_rviz_with_gazebo.launch"/>
   <include file="$(find urdf_tutorial)/launch/urdf_gazebo.launch"/>
   <include file="$(find urdf_tutorial)/launch/urdf_robot_control.launch"/>
 
